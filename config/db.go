@@ -10,6 +10,8 @@ import (
 	"gorm.io/gorm"
 )
 
+// https://mosun-go-blog.onrender.com
+
 var DB *gorm.DB
 
 func LoadEnv() {
